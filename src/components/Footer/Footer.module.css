@@ -16,12 +16,10 @@
   font-weight: 700;
 }
 .FooterUnder {
-  color: var(--dark-parag);
   font-family: var(--font-secondary);
   font-size: var(--font-size-sm);
 }
 .contactItem {
-  color: var(--dark-parag);
   font-family: var(--font-secondary);
   font-size: var(--font-size-md);
   text-decoration: none;

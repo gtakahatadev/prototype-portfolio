@@ -16,6 +16,9 @@ export default function Footer() {
                 <a className={styles.contactItem} href="">GitHub</a>
                 <a className={styles.contactItem} href="">LinkedIn</a>
             </div>
+            <a href=""></a>
+            <p></p>
+            <a href=""></a>
         </>
     )
 }

@@ -57,3 +57,19 @@ body {
   margin: 0;
   padding: 0;
 }
+
+p,
+a {
+  font-family: var(--font-secondary);
+  color: var(--dark-parag);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-primary);
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
