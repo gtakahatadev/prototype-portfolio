@@ -1,21 +1,32 @@
 :root {
   /* PALETA LIGHT */
-  --light-title: #171A21;
-  --light-parag: #626B7A;
-  --light-highlight: #4F6BFF;
-  --light-card: #FFFFFF;
-  --light-background: #F8F9FC;
+  --light-title: #17202b;
+  --light-parag: #667085;
+  --light-highlight: #0faaa5;
+  --light-card: #ffffff;
+  --light-background: #f5f7fa;
+
+  --light-line: #d9dee7;
 
   /* PALETA DARK */
-  --dark-title: #f2f4f7;
-  --dark-parag: #a8b0c0;
-  --dark-highlight: #6c8cff;
-  --dark-card: #181B24;
-  --dark-background: #0f1117;
+  --dark-title: #edf2f8;
+  --dark-parag: #969eae;
+  --dark-highlight: #91f3ef;
+  --dark-card: #11151b;
+  --dark-background: #090b10;
+
+  --line: #303641;
 
   /* FONTES */
   --font-primary: "Orbitron", sans-serif;
   --font-secondary: "Inter", serif;
+
+  /* TAMANHO */
+  --font-size-xl: 48px; /* extra grande */
+  --font-size-lg: 32px; /* grande */
+  --font-size-md: 16px; /* normal */
+  --font-size-sm: 14px; /* pequeno */
+  --font-size-xs: 12px; /* detalhes */
 
   @media (max-width: 1024px) {
     font-size: 16px;

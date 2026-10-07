@@ -5,7 +5,7 @@ export default function Hero() {
         <>
             <div className={styles.heroAbout}>
                 <h1 className={styles.heroName}>Gabriel Takahata</h1>
-                <h3 className={styles.heroJob}>Web Developer</h3>
+                <h3 className={styles.heroJob}>Software Developer</h3>
                 <p className={styles.heroParag}>Estudando web development etc</p>
             </div>
 

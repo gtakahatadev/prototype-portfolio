@@ -1,23 +1,23 @@
-import { useState } from "react";
 import styles from "./Menu.module.css";
 
-export default function Menu({ nome }) {
-    const [closed, setClosed] = useState(0);
+export default function Menu() {
     return (
         <>
             <nav className={styles.navbar}>
-                <img className={styles.navbarImg} src="" alt="" />
-                <p className={styles.navbarLogo}>{nome}</p>
-                <ul className={styles.navbarMenu}>
-                    <li className={styles.menuItem}>Sobre</li>
-                    <li className={styles.menuItem}>Projetos</li>
-                    <li className={styles.menuItem}>Habilidades</li>
-                    <li className={styles.menuItem}>Contato</li>
-                    <div><p>{closed}</p></div>
-                </ul>
-                <div className={styles.button}>
-                    <button className={styles.buttonItem}></button>
-                    <button className={styles.buttonItem}></button>
+                <div className={styles.containerLogo}>
+                    <p className={styles.menuLogo}>g.</p>
+                    <p className={styles.navbarLogo}>Gabriel</p>
+                    <p className={styles.navbarSuffix}>/ dev</p>
+                </div>
+                <div className={styles.navbarLinks}>
+                    <a className={styles.linkItem} href="">Sobre</a>
+                    <a className={styles.linkItem} href="">Habilidades</a>
+                    <a className={styles.linkItem} href="">Projetos</a>
+                    <a className={styles.linkButton} href="">Vamos conversar?</a>
+                    <div className={styles.usability}>
+                        <button className={styles.buttonTheme}>☀️ Modo Claro</button>
+                        <button className={styles.buttonLang}>EN</button>
+                    </div>
                 </div>
             </nav>
 

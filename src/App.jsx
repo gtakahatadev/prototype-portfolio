@@ -1,7 +1,8 @@
 import "./App.css";
 import Menu from "./components/Menu/Menu.jsx";
 import Hero from "./components/Hero/Hero.jsx";
-import Content from "./components/Content/Content.jsx";
+import Projects from "./components/Projects/Projects.jsx";
+import Skills from "./components/Skills/Skills.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <>
       <Menu nome="Gabriel" />
       <Hero />
-      <Content />
+      <Skills />
+      <Projects />
       <Footer />
     </>
   )
