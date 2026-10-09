@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  padding: 48px;
+}
+.aboutLeft {
+  width: 35%;
+  text-align: justify;
+}
+.aboutInd {
+  color: var(--dark-highlight);
+  font-size: var(--font-size-sm);
+}
+.aboutTitle {
+  color: var(--dark-title);
+  font-size: var(--font-size-lg);
+}
+.titleHighlight {
+  color: var(--dark-parag);
+}
+.aboutRight {
+  width: 45%;
+}
+.aboutUnd {
+  font-size: var(--font-size-sm);
+}
+.rightRow {
+  display: flex;
+  justify-content: left;
+}
+.aboutIcon {
+  color: var(--dark-highlight);
+}
+.rightline {
+}
+.aboutPhrase {
+  color: var(--dark-title);
+  font-size: var(--font-size-sm);
+}
+.aboutDetail {
+}

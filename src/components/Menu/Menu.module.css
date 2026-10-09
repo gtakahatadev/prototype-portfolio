@@ -47,7 +47,9 @@
 .linkButton:hover {
   color: var(--dark-highlight);
 }
+
 .buttonTheme {
+  color: var(--dark-parag);
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -59,6 +61,7 @@
 }
 
 .buttonLang {
+  color: var(--dark-parag);
   background-color: transparent;
   border: none;
   cursor: pointer;

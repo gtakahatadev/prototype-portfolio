@@ -22,11 +22,11 @@
   --font-secondary: "Inter", serif;
 
   /* TAMANHO */
-  --font-size-xl: 48px; /* extra grande */
-  --font-size-lg: 32px; /* grande */
-  --font-size-md: 16px; /* normal */
-  --font-size-sm: 14px; /* pequeno */
-  --font-size-xs: 12px; /* detalhes */
+  --font-size-xl: 64px; /* destaque */
+  --font-size-lg: 32px; /* Título */
+  --font-size-md: 22px; /* normal verificar*/ 
+  --font-size-sm: 16px; /* pequeno */
+  --font-size-xs: 10px; /* detalhes verificar*/ 
 
   @media (max-width: 1024px) {
     font-size: 16px;
@@ -59,14 +59,15 @@ body {
 }
 
 p,
-a {
+a,
+h3 {
   font-family: var(--font-secondary);
   color: var(--dark-parag);
 }
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--font-primary);
+  margin: 0;
 }
 
 button {

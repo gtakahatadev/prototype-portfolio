@@ -5,13 +5,38 @@
 }
 .aboutLeft {
   width: 45%;
+  text-align: justify;
 }
 
 .leftName {
   color: var(--dark-title);
-  font-size: 72px;
+  font-size: var(--font-size-xl);
 }
-
+.leftJob {
+  color: var(--dark-title);
+  font-size: var(--font-size-md);
+}
+.leftParag {
+}
+.containerButton {
+}
+.heroButtonCyan {
+  cursor: pointer;
+  background-color: var(--dark-highlight);
+  padding: 16px;
+  border-radius: 8px;
+}
+.heroButtonCyan:hover {
+  background-color: var(--dark-title);
+}
+.heroButton {
+  cursor: pointer;
+  color: var(--dark-title);
+  padding-left: 24px;
+}
+.heroButton:hover {
+  color: var(--dark-highlight);
+}
 .aboutRight {
   width: 35%;
   display: flex;
