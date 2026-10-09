@@ -1,3 +1,8 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  padding: 48px;
+}
 .skillsInd {
   color: var(--dark-highlight);
   font-size: var(--font-size-sm);
@@ -9,5 +14,20 @@
 .skillsUnd {
   font-size: var(--font-size-sm);
 }
-.skillsCont {
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+}
+.skillsLine {
+  display: flex;
+  flex-direction: column;
+}
+.lineNote {
+  color: var(--dark-highlight);
+  font-size: var(--font-size-xs);
+}
+.lineTitle {
+  color: var(--dark-title);
+}
+.lineParag {
 }

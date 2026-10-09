@@ -9,7 +9,7 @@ export default function Hero() {
                     <h3 className={styles.leftJob}>Software Developer</h3>
                     <p className={styles.leftParag}>Web developer explorando a conexão entre design e tecnologia. Crio experiências digitais com atenção aos detalhes e curiosidade pelo que vem a seguir.</p>
                     <div className={styles.containerButton}>
-                        <button className={styles.heroButtonCyan}>Explore meus projetos ↗</button>
+                        <button className={styles.buttonCyan}>Explore meus projetos ↗</button>
                         <button className={styles.heroButton}>Minhas habilidades →</button>
                     </div>
                 </div>

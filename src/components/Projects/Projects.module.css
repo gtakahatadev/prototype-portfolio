@@ -1,3 +1,8 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+}
 .projectsInd {
   color: var(--dark-highlight);
   font-size: var(--font-size-sm);
@@ -8,4 +13,28 @@
 }
 .projectsUnd {
   font-size: var(--font-size-sm);
+}
+.projectsRow {
+  display: flex;
+  flex-direction: row;
+}
+.rowCard {
+  display: flex;
+  flex-direction: column;
+}
+.cardDetail {
+  color: var(--dark-highlight);
+}
+.cardTitle {
+  color: var(--dark-title);
+  font-size: var(--font-size-md);
+}
+.cardParag .cardButton {
+  color: var(--dark-highlight);
+}
+.cardButton {
+  color: var(--dark-highlight);
+}
+.cardButton:hover {
+  cursor: pointer;
 }

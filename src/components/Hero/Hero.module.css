@@ -20,13 +20,13 @@
 }
 .containerButton {
 }
-.heroButtonCyan {
+.buttonCyan {
   cursor: pointer;
   background-color: var(--dark-highlight);
   padding: 16px;
   border-radius: 8px;
 }
-.heroButtonCyan:hover {
+.buttonCyan:hover {
   background-color: var(--dark-title);
 }
 .heroButton {
